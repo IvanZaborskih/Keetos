@@ -261,7 +261,7 @@ input[type="submit"] {
     left: -100%;
 
     /* transition: all ease .7s; */
-    transition: left .4s linear;
+    transition: left .5s linear;
 }
 
 .burger__menu--active .burger__menu--nav {
@@ -984,11 +984,7 @@ DESIGN
     height: 100vh;
 
     position: absolute;
-    z-index: 1;
-
-    /* background: linear-gradient(-90deg, #ee39a3, #a03cff, #00a9ed, #85b0ff);
-    background-size: 400% 400%;
-    animation: gradient 8s ease infinite; */
+    z-index: 0;
 }
 
 @keyframes slide {

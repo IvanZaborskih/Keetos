@@ -105,20 +105,19 @@ VANTA.FOG({
     speed: 5.00,
     zoom: 0.30
 });
-
-VANTA.FOG({
-    el: "#first--screen",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    highlightColor: 0x77ff,
-    midtoneColor: 0x83ff,
-    lowlightColor: 0x75ff,
-    baseColor: 0x0,
-    blurFactor: 0.90,
-    speed: 5.00,
-    zoom: 0.30
-});
+// VANTA.FOG({
+//     el: "#first--screen",
+//     mouseControls: true,
+//     touchControls: true,
+//     gyroControls: false,
+//     minHeight: 200.00,
+//     minWidth: 200.00,
+//     highlightColor: 0x77ff,
+//     midtoneColor: 0x83ff,
+//     lowlightColor: 0x75ff,
+//     baseColor: 0x0,
+//     blurFactor: 0.90,
+//     speed: 5.00,
+//     zoom: 0.30
+// });
 
