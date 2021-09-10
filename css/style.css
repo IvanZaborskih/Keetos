@@ -798,11 +798,11 @@ ABOUT
     position: absolute;
     z-index: 1;
 
-    /* background: linear-gradient(-45deg, #55d1f0, #D9B1FF, #10bbff, #689dff); */
-    background: linear-gradient(-45deg, #ee39a3, #a03cff, #00a9ed, #85b0ff);
+    background: #ccc;
+
+    /* background: linear-gradient(-45deg, #ee39a3, #a03cff, #00a9ed, #85b0ff);
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
-    /* filter: blur(1px); */
+    animation: gradient 8s ease infinite; */
 }
 
 .contacts__wrap {
@@ -986,30 +986,9 @@ DESIGN
     position: absolute;
     z-index: 1;
 
-    background: linear-gradient(-90deg, #ee39a3, #a03cff, #00a9ed, #85b0ff);
+    /* background: linear-gradient(-90deg, #ee39a3, #a03cff, #00a9ed, #85b0ff);
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
-}
-
-.bg1 {
-    animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-    bottom: 0;
-    left: -50%;
-    opacity: .5;
-    position: fixed;
-    right: -50%;
-    top: 0;
-    z-index: 1;
-}
-
-.bg2 {
-    animation-direction: alternate-reverse;
-    animation-duration: 4s;
-}
-
-.bg3 {
-    animation-duration: 5s;
+    animation: gradient 8s ease infinite; */
 }
 
 @keyframes slide {
