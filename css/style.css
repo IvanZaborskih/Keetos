@@ -185,8 +185,10 @@ input[type="submit"] {
     top: 60px;
     z-index: 10000;
 
-    width: 32px;
-    height: 22px;
+    background-color: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
 
     transition: transform .05s linear;
 }
@@ -198,8 +200,8 @@ input[type="submit"] {
     width: 32px;
     height: 4px;
 
-    /* background-color: #009cff; */
-    background-color: #8ad2ff;
+    background-color: #009cff;
+    /* background-color: #8ad2ff; */
     border-radius: 10px;
 }
 
@@ -588,7 +590,7 @@ ABOUT
     font-style: italic;
     text-decoration: none;
 
-    background-image: linear-gradient(#019CFF, #019CFF);
+    background-image: linear-gradient(#009cff, #009cff);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -637,7 +639,7 @@ ABOUT
 }
 
 .studio__desk__proj span{
-    color: #019CFF;
+    color: #009cff;
 }
 
 .projects__text--mobile {
@@ -858,8 +860,8 @@ ABOUT
 .contacts__mail {
     align-self: flex-start;
 
-    font-family: 'Gilroy-ExtraBold', sans-serif;
-    font-weight: 800;
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
     font-size: 15px;
     color: #fff;
     text-decoration: none;
@@ -950,14 +952,14 @@ ABOUT
     color: #fff;
     font-size: 18px;
 
-    transition: background .3s linear, border .3s linear;
+    transition: background .3s linear;
 }
 
 .form__btn:hover {
     cursor: pointer;
 
-    background-color: #0000ff;
-    border: 3px solid #0000ff;
+    background-color: #fff;
+    color: #009cff;
 }
 
 
