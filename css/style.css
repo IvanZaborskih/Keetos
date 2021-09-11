@@ -1174,52 +1174,6 @@ Websites
     background-blend-mode: screen;
 }
 
-.paralax-1 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.websites__col--car {
-    z-index: -100000;
-    background-attachment: fixed;
-    background-size: cover !important;
-    background-position: center;
-    background-blend-mode: screen;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transform: scale(1.2);
-    background-image: url("../img/design-projects/car.jpg");
-}
-
-.websites__col--sphere {
-    z-index: -100000;
-    background-attachment: fixed;
-    background-size: cover !important;
-    background-position: center;
-    background-blend-mode: screen;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transform: scale(1.2);
-    background-image: url("../img/spheta.png");
-}
-
-.websites__col--boba {
-    z-index: -100000;
-    background-attachment: fixed;
-    background-size: cover !important;
-    background-position: center;
-    background-blend-mode: screen;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    transform: scale(1.2);
-    background-image: url("../img/design-projects/boba.png");
-}
-
 .website__info {
     width: 100%;
     max-width: 400px;
