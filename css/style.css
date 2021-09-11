@@ -2684,24 +2684,9 @@ ALFATECH
         background-attachment: initial;
     }
 
-    .paralax-1 {
-        height: 100%;
-    }
-
-    .branding__first {
-        background-attachment: initial;
-    }
-
-    .branding__second {
-        background-attachment: initial;
-    }
-
-    .branding__trird {
-        background-attachment: initial;
-    }
-
-    .branding__fourth {
-        background-attachment: initial;
+    .intro__alfatech {
+        height: 50vh;
+        min-height: auto;
     }
 
     .hide--mobile {
