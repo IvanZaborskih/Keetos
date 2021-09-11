@@ -1293,6 +1293,7 @@ Branding
     /* display: flex;
     align-items: center; */
     position: relative;
+    overflow: hidden;
 
     background-attachment: fixed;
     background-size: cover !important;
