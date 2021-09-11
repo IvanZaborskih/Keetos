@@ -655,10 +655,19 @@ ABOUT
     min-height: 800px;
     height: 50vh;
 
-    background: url("../img/table.png") center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
+
+.img-parallax {
+    width: 100vmax;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    pointer-events: none
+  }
 
 
 
