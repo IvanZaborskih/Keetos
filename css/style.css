@@ -471,6 +471,16 @@ input[type="submit"] {
     background-color: #689dff;
 
     position: relative;
+    overflow: hidden;
+}
+
+.intro__alfatech {
+    width: 100%;
+    min-height: 768px;
+    height: 100vh;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .intro--alfa {
@@ -661,13 +671,21 @@ ABOUT
 
 .img-parallax {
     width: 100vmax;
-    z-index: -1;
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%,0);
-    pointer-events: none
-  }
+    transform: translate(-50%, 0);
+    pointer-events: none;
+}
+
+.img-parallax-alfa {
+    height: 120%;
+    object-fit: cover;
+
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
