@@ -687,6 +687,10 @@ ABOUT
     transform: translate(-50%, -50%);
 }
 
+.less--vmax {
+    width: 50vmax;
+}
+
 
 
 /* Works
@@ -2639,8 +2643,12 @@ ALFATECH
     }
 
     .intro__alfatech {
-        height: 50vh;
+        height: 100vh;
         min-height: auto;
+    }
+
+    .parallax__branding {
+        height: 50vh;
     }
 
     .hide--mobile {
