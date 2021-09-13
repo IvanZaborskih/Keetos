@@ -132,6 +132,10 @@ input[type="submit"] {
     border-radius: 0;
 }
 
+/* .wow {
+    visibility: hidden;
+} */
+
 
 /* Page
 =================================*/
@@ -570,7 +574,7 @@ ABOUT
 }
 
 .see__project {
-    color: #000;
+    color: #a9a9a9;
     font-size: 15px;
     font-family: 'MinionPro' ,serif;
     font-style: italic;
@@ -618,10 +622,10 @@ ABOUT
 .studio__desk__proj {
     font-family: 'P22-Medium', sans-serif;
     font-weight: 500;
-    color: #000000;
+    color: #a9a9a9;
     font-size: 13px;
     line-height: 1.55;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 
 .studio__desk__proj span{
@@ -2311,13 +2315,6 @@ ALFATECH
     .close-back {
         right: auto;
         left: 8px;
-    }
-
-    .close-back div {
-        /* height: 2px;
-        width: 18px;
-
-        transform-origin: 17px 1px; */
     }
 
     /* Solution */
