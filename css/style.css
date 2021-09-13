@@ -385,7 +385,7 @@ input[type="submit"] {
 }
 
 /* кнопка крестик, возвращает назад */
-#button {
+.close-back {
     /* background: #fff; */
     border-radius: 50%;
     cursor: pointer;
@@ -397,15 +397,15 @@ input[type="submit"] {
     z-index: 10;
 }
 
-#button div {
+.close-back div {
     background: #000;
-    height: 4px;
-    width: 19px;
+    height: 3px;
+    width: 18px;
     position: absolute;
     left: 24px;
     top: 48px;
     transition: all 0.3s ease-in-out;
-    transform-origin: 17px 2px;
+    transform-origin: 17px 1.5px;
 }
 .close-back .b1 {
     transform: translateX(0) rotate(45deg);
@@ -1750,7 +1750,7 @@ ALFATECH
         right: 15px;
     } */
 
-    #button {
+    .close-back {
         top: 15px;
         right: -11px;
     }
@@ -2308,16 +2308,16 @@ ALFATECH
         top: 22px;
     } */
 
-    #button {
+    .close-back {
         right: auto;
         left: 8px;
     }
 
-    #button div {
-        height: 2px;
+    .close-back div {
+        /* height: 2px;
         width: 18px;
 
-        transform-origin: 17px 1px;
+        transform-origin: 17px 1px; */
     }
 
     /* Solution */
@@ -2698,7 +2698,7 @@ ALFATECH
         font-size: 14px;
     }
 
-    #button {
+    .close-back {
         left: 0;
     }
 
