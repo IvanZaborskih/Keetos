@@ -267,7 +267,8 @@ input[type="submit"] {
 .burger__menu--active .burger__menu--nav {
     left: 0;
     /* box-shadow: 50px 0px 80px #f8f8f8; */
-    box-shadow: 0 0 90px 10px #f1f1f1;
+    /* box-shadow: 0 0 90px 10px #f1f1f1; */
+    box-shadow: 0 0 40px 0px #e9e9e9;
 }
 
 .burger__menu--link {
@@ -643,7 +644,7 @@ input[type="submit"] {
 }
 
 .changing__text--gray {
-    /* color: rgba(102, 102, 102, .9); */
+    color: rgba(102, 102, 102, .9);
 }
 
 .intro__footer--arrow {
