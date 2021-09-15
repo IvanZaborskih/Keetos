@@ -201,7 +201,7 @@ input[type="submit"] {
 .burger__menu--lines::before,
 .burger__menu--lines::after {
     position: absolute;
-    width: 32px;
+    width: 28px;
     height: 4px;
 
     background-color: #009cff;
@@ -220,14 +220,14 @@ input[type="submit"] {
 
 .burger__menu--lines::before {
     content: '';
-    top: -9px;
+    top: -8px;
 
     transition-duration: .4s;
 }
 
 .burger__menu--lines::after {
     content: '';
-    top: 9px;
+    top: 8px;
 
     transition-duration: .4s;
 }
@@ -1496,9 +1496,9 @@ ALFATECH
     font-family: 'MinionPro';
     font-size: 13px;
     font-style: italic;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     line-height: 1.55;
-    color: #000;
+    color: #a4a4a4;
 }
 
 .solution__wedo__title {
@@ -1607,16 +1607,16 @@ ALFATECH
     font-family: 'Gilroy-ExtraBold';
     font-weight: 800;
     font-size: 17px;
-    color: #000;
+    color: #7d7d7d;
     line-height: 1.55;
-    opacity: .6;
+    /* opacity: .6; */
 }
 
 .alfa__desc__text {
     font-size: 13px;
-    color: #666;
+    color: #aeaeae;
     line-height: 1.8;
-    opacity: .58;
+    /* opacity: .58; */
 }
 
 .alfa__desc__text--mb {
