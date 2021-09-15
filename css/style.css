@@ -199,7 +199,6 @@ input[type="submit"] {
     width: 28px;
     height: 4px;
 
-    /* background-color: #000; */
     background-color: #009cff;
     /* background-color: #8ad2ff; */
     border-radius: 10px;
@@ -387,7 +386,6 @@ input[type="submit"] {
 
 /* кнопка крестик, возвращает назад */
 .close-back {
-    /* background: #fff; */
     border-radius: 50%;
     cursor: pointer;
     height: 100px;
