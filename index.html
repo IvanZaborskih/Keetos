@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=42">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=43">
     <link rel="icon" href="img/keetos-logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://kit.fontawesome.com/aa341bd8b6.js" crossorigin="anonymous"></script>
@@ -76,7 +76,20 @@
 
             <!-- Анимированный фон -->
             <!-- <div class="bg--design" id="main--screen"></div> -->
-            <canvas id="webgl"></canvas>
+            <!-- <canvas id="webgl"></canvas> -->
+            <div class="bg--design">
+                <div class='view'>
+                    <ul class='circles'>
+                        <li class='h1 item'></li>
+                        <li class='h2 item'></li>
+                        <li class='h3 item'></li>
+                        <li class='h4 item'></li>
+                        <li class='h5 item'></li>
+                        <li class='h6 item'></li>
+                        <li class='h7 item'></li>
+                    </ul>
+                </div>
+            </div>
 
             <div class="container">
                 <div class="logo__inner">
@@ -88,13 +101,13 @@
                 <div class="container__header">
                     <div class="intro__footer__inner">
 
-                        <div class="changing__text">
+                        <div class="changing__text--gray">
                             <p><span class="chenging__text--type"></span></p>
                         </div>
 
                         <div class="intro__arrow">
                             <a href="#" data-scroll="#studio">
-                                <img class="intro__footer--arrow" src="img/arrow_main.svg" alt="arrow">
+                                <img class="intro__footer--arrow" src="img/arrow_main-black.svg" alt="arrow">
                             </a>
                         </div>
                     </div>
@@ -155,11 +168,12 @@
                         </p>
                     </div>
 
-                    <div class="studio__description  studio__we__do">
-                        <div class="studio__desk__text  studio__desk__text__wedo  studio__desc  wow fadeInUp"
-                            data-wow-duration="1s">We do:
+                    <div class="studio__description  studio__we__do   wow fadeInUp" data-wow-duration="1s"
+                        data-wow-offset="170">
+                        <div class="studio__desk__text  studio__desk__text__wedo  studio__desc">
+                            We do:
                         </div>
-                        <div class="studio__desk__proj  studio__desk__proj--mobile  studio__desc  wow fadeInUp">
+                        <div class="studio__desk__proj  studio__desk__proj--mobile  studio__desc">
                             <span>-</span> Websites<br>
                             <span>-</span> Logo & branding<br>
                             <span>-</span> UI & UX<br>
@@ -300,7 +314,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/gradient.js?v=3"></script>
+    <!-- <script src="js/gradient.js?v=3"></script> -->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.fog.min.js"></script>
     <script src="js/app.js?v=12"></script>
