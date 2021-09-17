@@ -189,7 +189,11 @@ input[type="submit"] {
     height: 55px;
     border-radius: 50%;
 
-    transition: transform .05s linear;
+    transition: transform .1s linear;
+}
+
+.burger__menu--button:hover {
+    transform: scale(0.9);
 }
 
 .burger__menu--lines,
@@ -643,6 +647,14 @@ input[type="submit"] {
 
 .changing__text--gray {
     color: rgba(102, 102, 102, .9);
+}
+
+.intro__footer--arrow {
+    transition: .15s;
+}
+
+.intro__arrow:hover .intro__footer--arrow {
+    transform: scale(0.8);
 }
 
 .intro__footer--arrow {
@@ -1249,6 +1261,11 @@ DESIGN
     opacity: .9;
 }
 
+.works__des__info--title a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .works__des__info--text {
     font-size: 13px;
     color: #fff;
@@ -1319,6 +1336,12 @@ Websites
     font-size: 32px;
     color: #009cff;
     line-height: 1.2;
+
+    transition: .2s;
+}
+
+.website__tetle:hover + .intro__alfatech img{
+    /* transform: scale(1.2); */
 }
 
 .website__title--link {
@@ -2469,6 +2492,10 @@ ALFATECH
         margin-left: 50px;
     }
 
+    .branding__more::after {
+        display: none;
+    }
+
     /*
     ==================================
     ALFATECH
@@ -2514,6 +2541,146 @@ ALFATECH
     .container__header--mobile {
         height: 100%;
     }
+
+    /* Background */
+    .view {
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        top: 50%;
+        left: 50%;
+        margin: -30px 0 0 -160px;
+    }
+
+    .circles {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        transform-style: preserve-3d;
+    }
+
+    .item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        border: 15px solid #cfd9db;
+        border-radius: 50%;
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+
+    .h1 {
+        border: 11px solid #ccd7d9;
+        border-color: #ccd7d9 #d2dbde #d7e0e2 #d2dbde;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #aebfc4, inset 0 10px 0px #aebfc4, 0 5px 0 #bdcbce, 0 10px 0 #bdcbce;
+        width: 320px;
+        height: 320px;
+        transform: rotateX(70deg) translate3d(0px, 0px, 100px);
+        animation: wave1 2.5s ease-in-out -0ms infinite alternate;
+    }
+
+    @keyframes wave1 {
+        100% {
+        transform: rotateX(70deg) translate3d(0px, 0px, 200px);
+        }
+    }
+    .h2 {
+        border: 11px solid #c9d4d7;
+        border-color: #c9d4d7 #cfd9db #d5dde0 #cfd9db;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #abbdc1, inset 0 10px 0px #abbdc1, 0 5px 0 #bac9cc, 0 10px 0 #bac9cc;
+        width: 270px;
+        height: 270px;
+        transform: rotateX(70deg) translate3d(25px, 0px, 75px);
+        animation: wave2 2.5s ease-in-out -400ms infinite alternate;
+    }
+
+    @keyframes wave2 {
+        100% {
+        transform: rotateX(70deg) translate3d(25px, 0px, 175px);
+        }
+    }
+    .h3 {
+        border: 11px solid #c6d2d5;
+        border-color: #c6d2d5 #ccd7d9 #d2dbde #ccd7d9;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #a8bbbf, inset 0 10px 0px #a8bbbf, 0 5px 0 #b7c6ca, 0 10px 0 #b7c6ca;
+        width: 220px;
+        height: 220px;
+        transform: rotateX(70deg) translate3d(50px, 0px, 50px);
+        animation: wave3 2.5s ease-in-out -800ms infinite alternate;
+    }
+
+    @keyframes wave3 {
+        100% {
+        transform: rotateX(70deg) translate3d(50px, 0px, 150px);
+        }
+    }
+    .h4 {
+        border: 11px solid #c3d0d3;
+        border-color: #c3d0d3 #c9d4d7 #cfd9db #c9d4d7;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #a6b8bd, inset 0 10px 0px #a6b8bd, 0 5px 0 #b4c4c8, 0 10px 0 #b4c4c8;
+        width: 170px;
+        height: 170px;
+        transform: rotateX(70deg) translate3d(75px, 0px, 25px);
+        animation: wave4 2.5s ease-in-out -1200ms infinite alternate;
+    }
+
+    @keyframes wave4 {
+        100% {
+        transform: rotateX(70deg) translate3d(75px, 0px, 125px);
+        }
+    }
+    .h5 {
+        border: 11px solid #c0cdd1;
+        border-color: #c0cdd1 #c6d2d5 #ccd7d9 #c6d2d5;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #a3b6bb, inset 0 10px 0px #a3b6bb, 0 5px 0 #b1c2c6, 0 10px 0 #b1c2c6;
+        width: 120px;
+        height: 120px;
+        transform: rotateX(70deg) translate3d(100px, 0px, 0px);
+        animation: wave5 2.5s ease-in-out -1600ms infinite alternate;
+    }
+
+    @keyframes wave5 {
+        100% {
+        transform: rotateX(70deg) translate3d(100px, 0px, 100px);
+        }
+    }
+    .h6 {
+        border: 11px solid #bdcbce;
+        border-color: #bdcbce #c3d0d3 #c9d4d7 #c3d0d3;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #a0b4b9, inset 0 10px 0px #a0b4b9, 0 5px 0 #aebfc4, 0 10px 0 #aebfc4;
+        width: 70px;
+        height: 70px;
+        transform: rotateX(70deg) translate3d(125px, 0px, -25px);
+        animation: wave6 2.5s ease-in-out -2000ms infinite alternate;
+    }
+
+    @keyframes wave6 {
+        100% {
+        transform: rotateX(70deg) translate3d(125px, 0px, 75px);
+        }
+    }
+    .h7 {
+        border: 11px solid #bac9cc;
+        border-color: #bac9cc #c0cdd1 #c6d2d5 #c0cdd1;
+        box-shadow: 0 1px 0 white, inset 0 5px 0px #9db1b7, inset 0 10px 0px #9db1b7, 0 5px 0 #abbdc1, 0 10px 0 #abbdc1;
+        width: 20px;
+        height: 20px;
+        transform: rotateX(70deg) translate3d(150px, 0px, -50px);
+        animation: wave7 2.5s ease-in-out -2400ms infinite alternate;
+    }
+
+    @keyframes wave7 {
+        100% {
+        transform: rotateX(70deg) translate3d(150px, 0px, 50px);
+        }
+    }
+/* END background */
 
     /* Header */
     .burger__menu--button {
