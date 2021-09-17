@@ -145,3 +145,30 @@ $('.img-parallax').each(function () {
     });
 });
 
+
+// change scale
+function changeItem() {
+    document.getElementById('imgScaleCar').style.transform = 'scale(1.1)';
+}
+function changeItem2() {
+    document.getElementById('imgScaleSphere').style.transform = 'scale(1.1)';
+}
+function changeItem3() {
+    document.getElementById('imgScaleBoba').style.transform = 'scale(1.1)';
+}
+function changeItem4() {
+    document.getElementById('imgScaleCar2').style.transform = 'scale(1.1)';
+}
+
+function rechangeItem() {
+    document.getElementById('imgScaleCar').style.transform = 'scale(1)';
+}
+function rechangeItem2() {
+    document.getElementById('imgScaleSphere').style.transform = 'scale(1)';
+}
+function rechangeItem3() {
+    document.getElementById('imgScaleBoba').style.transform = 'scale(1)';
+}
+function rechangeItem4() {
+    document.getElementById('imgScaleCar2').style.transform = 'scale(1)';
+}

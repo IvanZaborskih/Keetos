@@ -602,6 +602,8 @@ input[type="submit"] {
 
     position: relative;
     overflow: hidden;
+
+    transition: .3s;
 }
 
 .intro--alfa {
@@ -613,6 +615,8 @@ input[type="submit"] {
 .logo__inner {
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    z-index: 5;
 }
 
 .logo__inner--alfa {
@@ -1308,6 +1312,8 @@ Websites
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    overflow: hidden;
 }
 
 .section {
@@ -2988,9 +2994,9 @@ ALFATECH
     }
 
     .branding__info {
-        padding-left: 0;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
+        padding-left: 25px;
+        /* left: 50%; */
+        transform: translate3d(0, -50%, 0);
     }
 
     .branding__date--desktop {
@@ -3039,6 +3045,11 @@ ALFATECH
 
     .close-back {
         left: 0;
+    }
+
+    .close-back div {
+        width: 15px;
+        transform-origin: 14px 1.5px;
     }
 
     /* Solution */
