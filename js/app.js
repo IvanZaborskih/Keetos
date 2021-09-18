@@ -159,6 +159,18 @@ function changeItem3() {
 function changeItem4() {
     document.getElementById('imgScaleCar2').style.transform = 'scale(1.1)';
 }
+function changeImgBranding1() {
+    document.getElementById('imgBranding1').style.transform = 'scale(1.1)';
+}
+function changeImgBranding2() {
+    document.getElementById('imgBranding2').style.transform = 'scale(1.1)';
+}
+function changeImgBranding3() {
+    document.getElementById('imgBranding3').style.transform = 'scale(1.1)';
+}
+function changeImgBranding4() {
+    document.getElementById('imgBranding4').style.transform = 'scale(1.1)';
+}
 
 function rechangeItem() {
     document.getElementById('imgScaleCar').style.transform = 'scale(1)';
@@ -171,4 +183,16 @@ function rechangeItem3() {
 }
 function rechangeItem4() {
     document.getElementById('imgScaleCar2').style.transform = 'scale(1)';
+}
+function rechangeBranding1() {
+    document.getElementById('imgBranding1').style.transform = 'scale(1)';
+}
+function rechangeBranding2() {
+    document.getElementById('imgBranding2').style.transform = 'scale(1)';
+}
+function rechangeBranding3() {
+    document.getElementById('imgBranding3').style.transform = 'scale(1)';
+}
+function rechangeBranding4() {
+    document.getElementById('imgBranding4').style.transform = 'scale(1)';
 }
