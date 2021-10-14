@@ -149,6 +149,8 @@ input[type="submit"] {
     margin: 0 auto;
 
     position: absolute;
+    z-index: 5;
+    /* transform: translate3d(0, 0, 500px); */
 }
 
 #webgl {
@@ -1157,6 +1159,7 @@ DESIGN
 
     position: absolute;
     z-index: 0;
+    transform: translate3d(0, 0, 0);
 }
 
 @keyframes slide {
@@ -1171,6 +1174,7 @@ DESIGN
 .introD__inner {
     display: flex;
     z-index: 5;
+    /* transform: translate3d(0, 0, 300px); */
 }
 
 .introD__logo {
@@ -1191,6 +1195,7 @@ DESIGN
     margin: 0 20px;
 
     background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     /* box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1); */
     border-radius: 2rem;
