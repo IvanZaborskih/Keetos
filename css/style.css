@@ -2119,7 +2119,7 @@ ALFATECH
     }
 
     .social__link {
-        margin-right: 12px;
+        margin-right: 9px;
 
         font-size: 15px;
     }
@@ -2691,8 +2691,8 @@ ALFATECH
     }
 
     .burger__menu--nav {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
 
         transition: left .3s linear;
     }
@@ -3195,7 +3195,13 @@ ALFATECH
     }
 
     .social__link {
-        font-size: 22px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 350px) and (max-height: 569px) {
+    .line {
+        margin: 25px 0px 25px;
     }
 }
 
