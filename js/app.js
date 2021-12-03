@@ -46,15 +46,19 @@ $("[data-scroll]").on("click", function (event) {
 
 
 // ширина и высота
-let heightCol = $("#works__design__item").height();
-let widthHalfCol = $("#works__design__item--half").width();
-let heigthBigElem = document.querySelector('.works__des__img');
-let widthHalfElement = document.querySelectorAll('.works__des__img--little');
-for (let n of widthHalfElement) {
-    n.style.minWidth = widthHalfCol + 'px';
+function websitePageOnly() {
+    let heightCol = $("#works__design__item").height();
+    let widthHalfCol = $("#works__design__item--half").width();
+    let heigthBigElem = document.querySelector('.works__des__img');
+    let widthHalfElement = document.querySelectorAll('.works__des__img--little');
+    for (let n of widthHalfElement) {
+        n.style.minWidth = widthHalfCol + 'px';
+    }
+    heigthBigElem.style.minHeight = heightCol + 'px';
 }
-heigthBigElem.style.minHeight = heightCol + 'px';
-
+if ($('body.projects_page').length) {
+    websitePageOnly();
+}
 
 
 // Анимация печатной машинки

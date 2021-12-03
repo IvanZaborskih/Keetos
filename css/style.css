@@ -1008,7 +1008,7 @@ ABOUT
     font-weight: 500;
     font-size: 24px;
     color: #fff;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .contacts__mail {
@@ -2147,11 +2147,11 @@ ALFATECH
     */
     /* Contacts */
     .contacts {
-        min-height: 980px;
+        min-height: 1100px;
     }
 
     .bg {
-        min-height: 980px;
+        min-height: 1100px;
     }
 
     .contacts__info {
@@ -2163,8 +2163,8 @@ ALFATECH
     }
 
     .contacts__title h2 {
-        padding-bottom: 20px;
-        line-height: 1.8;
+        padding-bottom: 40px;
+        /* line-height: 1.8; */
     }
 
     .contacts__text {
@@ -2331,11 +2331,11 @@ ALFATECH
 
     /* Contacts */
     .contacts {
-        min-height: 943px;
+        min-height: 1050px;
     }
 
     .bg {
-        min-height: 943px;
+        min-height: 1050px;
     }
 
     .contacts__title h2 {
@@ -2813,10 +2813,10 @@ ALFATECH
 
     /* Contacts */
     .contacts {
-        min-height: 841px;
+        min-height: 900px;
     }
     .bg {
-        min-height: 841px;
+        min-height: 900px;
     }
 
     .contacts__title h2 {
