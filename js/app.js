@@ -45,6 +45,18 @@ $("[data-scroll]").on("click", function (event) {
 });
 
 
+// ширина и высота
+let heightCol = $("#works__design__item").height();
+let widthHalfCol = $("#works__design__item--half").width();
+let heigthBigElem = document.querySelector('.works__des__img');
+let widthHalfElement = document.querySelectorAll('.works__des__img--little');
+for (let n of widthHalfElement) {
+    n.style.minWidth = widthHalfCol + 'px';
+}
+heigthBigElem.style.minHeight = heightCol + 'px';
+
+
+
 // Анимация печатной машинки
 $(document).ready(function () {
     var typed = new Typed('.chenging__text--type', {

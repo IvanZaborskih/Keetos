@@ -1223,6 +1223,9 @@ DESIGN
 
     display: flex;
     justify-content: center;
+    /* ??????????????? */
+    align-items: center;
+    /* ??????????????? */
 
     overflow: hidden;
 }
@@ -1254,6 +1257,10 @@ DESIGN
     text-decoration: none;
 }
 
+.works__des__info--title--black a {
+    color: initial;
+}
+
 .works__des__info--text {
     font-size: 13px;
     color: #fff;
@@ -1261,18 +1268,23 @@ DESIGN
     opacity: 0.9;
 }
 
+.works__des__info--text--black {
+    color: initial;
+}
+
 .works__des__img {
     display: block;
     margin: auto;
-    height: 100%;
-    min-height: 870px;
+    /* min-height: 100%; */
+    /* min-width: auto; */
+    /* min-height: 870px; */
 
     transition: 0.3s; /* Время эффекта */
 }
 
-.works__des__img--little {
-    min-height: 435px;
-}
+/* .works__des__img--little {
+    min-height: 576px;
+} */
 
 .works__des__img:hover {
     transform: scale(1.1);
