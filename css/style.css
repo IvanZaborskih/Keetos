@@ -2882,18 +2882,18 @@ ALFATECH
         display: none;
     }
 
-    .websites__inner--car {
-        background: url("../img/design-projects/notebook.png") center no-repeat;
+    .websites__inner--alfatech {
+        background: url("../img/websites/alfatech.png") center no-repeat;
         background-size: cover;
     }
 
-    .websites__inner--sphere {
-        background: url("../img/spheta.png") center no-repeat;
+    .websites__inner--medial {
+        background: url("../img/websites/medial.png") center no-repeat;
         background-size: cover;
     }
 
-    .websites__inner--boba {
-        background: url("../img/design-projects/boba.png") center no-repeat;
+    .websites__inner--alfred {
+        background: url("../img/websites/alfred.png") center no-repeat;
         background-size: cover;
     }
 
@@ -2908,8 +2908,13 @@ ALFATECH
         color: #fff;
     }
 
+    .website__tetle--mobile-black {
+        color: #009cff;
+    }
+
     .website__text {
         margin-bottom: 0;
+        max-width: 200px;
 
         color: #fff;
     }
@@ -2936,6 +2941,10 @@ ALFATECH
 
         font-size: 10px;
         color: #fff;
+    }
+
+    .website__text--mobile-black {
+        color: #666;
     }
 
     /*
