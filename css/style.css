@@ -1615,11 +1615,19 @@ ALFATECH
     line-height: 1.55;
 }
 
+.alfatech__title--white {
+    color: #fff;
+}
+
 .alfatech__subtitle {
     font-family: "Gilroy-ExtraBold";
     font-weight: 800;
     font-size: 20px;
     line-height: 1.55;
+}
+
+.alfatech__subtitle--wite {
+    color: #fff;
 }
 
 /* Solution */
@@ -1873,6 +1881,11 @@ ALFATECH
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
+}
+
+.alfa__works--big--link-dark {
+    color: #000;
+    background-image: linear-gradient(#000, #000);
 }
 
 .alfa__works--big:hover .alfa__works--big--link {
